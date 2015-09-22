@@ -9,14 +9,6 @@ header {
     text-align: center;
 }
 
-#logo {
-    display: block;
-    margin-top: 150px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
 li {
     display: inline;
     padding-right: 25px;
@@ -25,25 +17,20 @@ li {
     font-size: 13px;
 }
 
-a {
+li a {
     text-decoration: none;
     color: #464646;
 }
 
-a:visited {
+li a:visited {
     color: #464646;
 }
 
-a:hover {
+li a:hover {
     text-decoration: underline;
 }
 
-#notif {
-    height: 20px;
-    width: 20px;
-}
-
-#prod {
+.hImg {
     height: 20px;
     width: 20px;
 }
@@ -57,6 +44,13 @@ a:hover {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+}
+
+#logo {
+    display: block;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #submitbar {
