@@ -90,3 +90,16 @@ li a:hover {
     background-color: whitesmoke;
 }
 
+footer {
+    font-family: Arial, serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+#foot {
+    text-decoration: none;
+}
+
+#foot:hover {
+    text-decoration: underline;
+}
