@@ -1,6 +1,5 @@
 body {
     font-family: Arial, serif;
-    height: 1000px;
 }
 header {
     height: 40px;
@@ -28,6 +27,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #464646;
 }
 
 a:visited {
@@ -59,9 +59,40 @@ a:hover {
     border-radius: 50%;
 }
 
-#search {
-    margin-top: 10px;
-    height: 30px;
-    width: 30%;
-    border-color: lightblue;
+#submitbar {
+    display: inline-block;
+    margin-top: 40px;
+    width: 600px;
+    border: solid steelblue;
 }
+
+#search {
+    height: 30px;
+    width: 500px;
+    border-color: transparent;
+    float:left;
+    margin-left: 1em;
+}
+
+#search:focus {
+    outline: none;
+}
+
+#mic {
+    background-size: 24px 24px;
+    background-image: url("images/mic.png");
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#buttonbox {
+    margin-top: 40px;
+}
+.button {
+    width: 140px;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
