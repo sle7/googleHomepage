@@ -1,5 +1,5 @@
 body {
-    font-family: Arial;
+    font-family: Arial, serif;
     height: 1000px;
 }
 header {
@@ -7,18 +7,61 @@ header {
 }
 
 #content {
+    text-align: center;
 }
+
 #logo {
-    margin-top: 200px;
+    display: block;
+    margin-top: 150px;
     margin-right: auto;
     margin-left: auto;
-    display: block;
 }
 
 
 li {
     display: inline;
-    margin-right: .5em;
+    padding-right: 25px;
+    margin-top: 5px;
     float: right;
     font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #464646;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#notif {
+    height: 20px;
+    width: 20px;
+}
+
+#prod {
+    height: 20px;
+    width: 20px;
+}
+
+#name {
+    color: gray;
+}
+
+#user {
+    margin-top: -5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#search {
+    margin-top: 10px;
+    height: 30px;
+    width: 30%;
+    border-color: lightblue;
 }

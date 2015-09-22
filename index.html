@@ -8,17 +8,24 @@
 <body>
     <header>
         <ul id="nav">
-            <li>Photo</li>
-            <li>Bell</li>
-            <li>Appbox</li>
-            <li>Images</li>
-            <li>Gmail</li>
-            <li>Sam</li>
+            <li><a href="#"><img id="user" src="images/photo.jpg" alt="photo"/></a></li>
+            <li id="notif"><a href="#"><img src="images/notifications.png" alt="google notifications"/></a></li>
+            <li id="prod"><a href="#"><img src="images/google-apps-launcher-icon.png" alt="app launcher"/></a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Gmail</a></li>
+            <li id="name">Sam</li>
         </ul>
     </header>
     <div id="content">
         <div>
-            <img id="logo" src="images/googlelogo.png" alt="Google Logo"i width="272" height="92"/>
+            <img id="logo" src="images/googlelogo.png" alt="Google Logo" width="272" height="92"/>
+        </div>
+        <div>
+            <form method="GET" action="http://www.google.com">
+                <p>
+                    <input type="text" id="search" name="search"/>
+                </p>
+            </form>
         </div>
     </div>
     <footer>
